@@ -1,9 +1,3 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Lời chúc</title>
-<link rel="shortcut icon" href="Logo.ico">
 
 <style type="text/css">
 .hovergallery img{
@@ -69,22 +63,3 @@ opacity: 1;
     
 </marquee>
 
-
-<!--Chuyển trang sau 374s(Đồng thời hết bài hát-->
-<script type="text/javascript"> 
-	var jgt = 10; document.getElementById('time').innerHTML = jgt; 
-	function stime(){
-		document.getElementById('time').innerHTML = jgt; 
-		jgt = jgt - 1; 
-		if(jgt == 0){
-			clearInterval(timing); 
-			location = 'Index.html';
-			} 
-		} 
-	var timing = setInterval("stime();",37400); 
-</script>
-
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-</body>
-</html>
