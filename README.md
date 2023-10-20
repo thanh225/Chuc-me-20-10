@@ -1,3 +1,4 @@
+<body style="background-image:url(img/backgr.jpg)">
 <center>
         <audio id="time" src="audio/Huyen-Thoai-Me-Dam-Vinh-Hung.mp3" controls autoplay="autoplay">
             <source src="audio-file.ogg" type="audio/ogg" />
